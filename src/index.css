@@ -1,0 +1,12 @@
+html,body{
+    background-color: #F9F7F7;
+    color: #112D4E;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1, nav {
+    margin: 0;
+    padding: 0;
+}
