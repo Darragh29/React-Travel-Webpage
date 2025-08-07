@@ -10,7 +10,7 @@ function DestinationSearch(){
     }
 
     const filteredData = data.filter((item) => {
-        return item.name.toLowerCase().includes(search.toLowerCase());
+        return item.name.toLowerCase().includes(search.toLowerCase()) || item.country.toLowerCase().includes(search.toLowerCase());
     })
 
     return (
@@ -19,9 +19,9 @@ function DestinationSearch(){
                 <input type="search" id="dest-search" placeholder="Search" onChange={handleSearch}/>
             </div>
             <div className="destinations">
-                {filteredData.map((item, index) => {
+                {filteredData.length > 0 ? filteredData.map((item, index) => {
                     return (<DestinationCard key={index} destination={item.name} country={item.country} image={item.image} fact={item.fact}/>)
-                })}
+                }) : <h1>No Destinations Found</h1>}
             </div>
         </div>
     )
