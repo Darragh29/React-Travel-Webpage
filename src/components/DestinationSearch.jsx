@@ -1,15 +1,21 @@
 import DestinationCard from "./DestinationCard.jsx";
-import {useState} from "react";
-import data from "../data.json";
+import {useEffect, useState} from "react";
 
 function DestinationSearch(){
     const [search, setSearch] = useState("");
+    const [destination, setDestination] = useState([]);
 
     function handleSearch(e) {
         setSearch(e.target.value);
     }
 
-    const filteredData = data.filter((item) => {
+    useEffect(() => {
+        fetch('http://localhost:3000/destinations')
+            .then(res => res.json())
+            .then(data => setDestination(data))
+    },[])
+
+    const filteredData = destination.filter((item) => {
         return item.name.toLowerCase().includes(search.toLowerCase()) || item.country.toLowerCase().includes(search.toLowerCase());
     })
 
