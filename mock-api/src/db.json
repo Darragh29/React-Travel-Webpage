@@ -1,0 +1,804 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Galway",
+      "country": "Ireland",
+      "continent": "Europe",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/e8/a8/ae/photo0jpg.jpg?w=900&h=500&s=1",
+      "fact": "Known for its traditional Irish music and arts scene."
+    },
+    {
+      "id": 2,
+      "name": "Clifden",
+      "country": "Ireland",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Clifden_Co_Clare_Westport_Connemara.jpg",
+      "fact": "Gateway to Connemara with beautiful landscapes."
+    },
+    {
+      "id": 3,
+      "name": "Dingle",
+      "country": "Ireland",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Dingle_harbour_-_geograph.org.uk_-_1435253.jpg",
+      "fact": "Famous for rugged coastline and Dingle Peninsula."
+    },
+    {
+      "id": 4,
+      "name": "Killarney",
+      "country": "Ireland",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Killarney_lakes.JPG",
+      "fact": "Known for Killarney National Park and lakes."
+    },
+    {
+      "id": 5,
+      "name": "Sligo",
+      "country": "Ireland",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Sligo_city_center%2C_Ireland_2012.jpg",
+      "fact": "Inspired W.B. Yeats and boasts beautiful beaches."
+    },
+    {
+      "id": 6,
+      "name": "Westport",
+      "country": "Ireland",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Westport_Co._Mayo.JPG",
+      "fact": "Known for colorful streets and nearby Croagh Patrick."
+    },
+    {
+      "id": 7,
+      "name": "Donegal",
+      "country": "Ireland",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Donegal_Town_County_Donegal.jpg",
+      "fact": "Known for wild coastline and castles."
+    },
+    {
+      "id": 8,
+      "name": "Tralee",
+      "country": "Ireland",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Tralee_Town_Centre%2C_Co._Kerry%2C_Ireland_-_panoramio.jpg",
+      "fact": "Hosts the famous Rose of Tralee festival."
+    },
+    {
+      "id": 9,
+      "name": "Letterkenny",
+      "country": "Ireland",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Letterkenny_-_Town_Centre_-_geograph.org.uk_-_1426256.jpg",
+      "fact": "Largest town in County Donegal."
+    },
+    {
+      "id": 10,
+      "name": "Cork",
+      "country": "Ireland",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Cork_city_centre%2C_Ireland_-_2019.jpg",
+      "fact": "Known as the 'Rebel City' with vibrant culture."
+    },
+    {
+      "id": 11,
+      "name": "Lisbon",
+      "country": "Portugal",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lisbon_sunset_view_from_Sao_Pedro_de_Alcantara.jpg",
+      "fact": "Capital city famous for its hills and trams."
+    },
+    {
+      "id": 12,
+      "name": "Barcelona",
+      "country": "Spain",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Barcelona_Montjuic_-_Montjuic_Castle.jpg",
+      "fact": "Known for Gaudí architecture and beaches."
+    },
+    {
+      "id": 13,
+      "name": "Paris",
+      "country": "France",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Paris_Night.jpg",
+      "fact": "The City of Light, famous for Eiffel Tower."
+    },
+    {
+      "id": 14,
+      "name": "Venice",
+      "country": "Italy",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Venice_-_Canal_Grande_-_Palazzo_Ducale_01.jpg",
+      "fact": "Built on canals with gondola rides."
+    },
+    {
+      "id": 15,
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Amsterdam_Canal_Houses.jpg",
+      "fact": "Famous for canals, bicycles, and museums."
+    },
+    {
+      "id": 16,
+      "name": "Prague",
+      "country": "Czech Republic",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Prague_Castle_and_Vltava_River.jpg",
+      "fact": "Known as the 'City of a Hundred Spires'."
+    },
+    {
+      "id": 17,
+      "name": "Berlin",
+      "country": "Germany",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Berlin_Brandenburger_Tor_Nacht_2010.jpg",
+      "fact": "Capital city with rich history and nightlife."
+    },
+    {
+      "id": 18,
+      "name": "Athens",
+      "country": "Greece",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Acropolis_of_Athens_2013-05-22.jpg",
+      "fact": "Home to ancient ruins and the Acropolis."
+    },
+    {
+      "id": 19,
+      "name": "Dubrovnik",
+      "country": "Croatia",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Dubrovnik_Old_Town_2017.jpg",
+      "fact": "Famous medieval walled city on the Adriatic Sea."
+    },
+    {
+      "id": 20,
+      "name": "Edinburgh",
+      "country": "Scotland",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Edinburgh_Castle_from_Calton_Hill_2005_08_17.jpg",
+      "fact": "Known for its historic castle and festivals."
+    },
+    {
+      "id": 21,
+      "name": "New York City",
+      "country": "USA",
+      "continent": "North America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Manhattan_at_Dusk_by_slonecker.jpg",
+      "fact": "The Big Apple, famous for Times Square and Broadway."
+    },
+    {
+      "id": 22,
+      "name": "San Francisco",
+      "country": "USA",
+      "continent": "North America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Golden_Gate_Bridge_and_SF_Skyline.jpg",
+      "fact": "Known for the Golden Gate Bridge and tech hub."
+    },
+    {
+      "id": 23,
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "continent": "South America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Rio_de_Janeiro_-_Rafael_Mendon%C3%A7a_-_cropped.jpg",
+      "fact": "Famous for Christ the Redeemer statue and beaches."
+    },
+    {
+      "id": 24,
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "continent": "South America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Buenos_Aires_Skyline.jpg",
+      "fact": "Known as the 'Paris of South America'."
+    },
+    {
+      "id": 25,
+      "name": "Lima",
+      "country": "Peru",
+      "continent": "South America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Lima_Skyline_and_Beach.jpg",
+      "fact": "Capital city with rich history and cuisine."
+    },
+    {
+      "id": 26,
+      "name": "Toronto",
+      "country": "Canada",
+      "continent": "North America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Toronto_Skyline2.jpg",
+      "fact": "Known for CN Tower and multicultural vibe."
+    },
+    {
+      "id": 27,
+      "name": "Vancouver",
+      "country": "Canada",
+      "continent": "North America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Vancouver_-_British_Columbia_-_Canada_02.jpg",
+      "fact": "Known for stunning natural landscapes."
+    },
+    {
+      "id": 28,
+      "name": "Mexico City",
+      "country": "Mexico",
+      "continent": "North America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Mexico_City_Skyline.jpg",
+      "fact": "Historic city with vibrant culture and food."
+    },
+    {
+      "id": 29,
+      "name": "Havana",
+      "country": "Cuba",
+      "continent": "North America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/El_Malecon_-_Havana%2C_Cuba.jpg",
+      "fact": "Famous for vintage cars and colonial architecture."
+    },
+    {
+      "id": 30,
+      "name": "Cape Town",
+      "country": "South Africa",
+      "continent": "Africa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Cape_Town_-_Table_Mountain_2018.jpg",
+      "fact": "Known for Table Mountain and Robben Island."
+    },
+    {
+      "id": 31,
+      "name": "Marrakech",
+      "country": "Morocco",
+      "continent": "Africa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Marrakech_Jemaa_El_Fna_Market.jpg",
+      "fact": "Famous for vibrant souks and desert tours."
+    },
+    {
+      "id": 32,
+      "name": "Nairobi",
+      "country": "Kenya",
+      "continent": "Africa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Nairobi_city_skyline.jpg",
+      "fact": "Known as the safari capital of the world."
+    },
+    {
+      "id": 33,
+      "name": "Cairo",
+      "country": "Egypt",
+      "continent": "Africa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Cairo_Skyline_2010.jpg",
+      "fact": "Home to the Great Pyramids and Nile River."
+    },
+    {
+      "id": 34,
+      "name": "Tunis",
+      "country": "Tunisia",
+      "continent": "Africa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Tunis_medina.JPG",
+      "fact": "Historic city with a blend of Roman and Islamic culture."
+    },
+    {
+      "id": 35,
+      "name": "Tokyo",
+      "country": "Japan",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tokyo_Tower_and_around_Skyscrapers.jpg",
+      "fact": "A massive metropolis blending tradition and tech."
+    },
+    {
+      "id": 36,
+      "name": "Bangkok",
+      "country": "Thailand",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Bangkok_Skyline.jpg",
+      "fact": "Known for ornate shrines and vibrant street life."
+    },
+    {
+      "id": 37,
+      "name": "Seoul",
+      "country": "South Korea",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Seoul_Skyline.jpg",
+      "fact": "Tech-savvy city with rich history."
+    },
+    {
+      "id": 38,
+      "name": "Singapore",
+      "country": "Singapore",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Singapore_skyline_2016.jpg",
+      "fact": "Famous for cleanliness and Gardens by the Bay."
+    },
+    {
+      "id": 39,
+      "name": "Delhi",
+      "country": "India",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Qutb_Minar_01.jpg",
+      "fact": "Capital with a blend of ancient and modern."
+    },
+    {
+      "id": 40,
+      "name": "Bali",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Bali_Beach_-_Indonesia.jpg",
+      "fact": "Popular island destination with beaches and temples."
+    },
+    {
+      "id": 41,
+      "name": "Sydney",
+      "country": "Australia",
+      "continent": "Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sydney_Opera_House_and_Harbour_Bridge_2016.jpg",
+      "fact": "Famous for the Opera House and Harbour Bridge."
+    },
+    {
+      "id": 42,
+      "name": "Melbourne",
+      "country": "Australia",
+      "continent": "Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Melbourne_Skyline_at_night_-_Dec_2009.jpg",
+      "fact": "Known for arts, culture, and coffee."
+    },
+    {
+      "id": 43,
+      "name": "Auckland",
+      "country": "New Zealand",
+      "continent": "Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/Auckland_Skyline_2015.jpg",
+      "fact": "City of sails with beautiful harbors."
+    },
+    {
+      "id": 44,
+      "name": "Queenstown",
+      "country": "New Zealand",
+      "continent": "Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Queenstown_NZ_panorama.jpg",
+      "fact": "Adventure capital surrounded by mountains and lakes."
+    },
+    {
+      "id": 45,
+      "name": "Moscow",
+      "country": "Russia",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Moscow_Montage_2016.png",
+      "fact": "Known for Red Square and Kremlin."
+    },
+    {
+      "id": 46,
+      "name": "Istanbul",
+      "country": "Turkey",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Istanbul_Skyline_2014.jpg",
+      "fact": "A city straddling two continents."
+    },
+    {
+      "id": 47,
+      "name": "Lisbon",
+      "country": "Portugal",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lisbon_sunset_view_from_Sao_Pedro_de_Alcantara.jpg",
+      "fact": "Capital city famous for its hills and trams."
+    },
+    {
+      "id": 48,
+      "name": "Brussels",
+      "country": "Belgium",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Brussels_City_Hall_01.JPG",
+      "fact": "Known for chocolate, waffles, and EU headquarters."
+    },
+    {
+      "id": 49,
+      "name": "Venice",
+      "country": "Italy",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Venice_-_Canal_Grande_-_Palazzo_Ducale_01.jpg",
+      "fact": "Built on canals with gondola rides."
+    },
+    {
+      "id": 50,
+      "name": "Santorini",
+      "country": "Greece",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Santorini_Caldera_-_Oia_Town.JPG",
+      "fact": "Famous for stunning sunsets and whitewashed buildings."
+    },
+    {
+      "id": 51,
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "continent": "South America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Buenos_Aires_Skyline.jpg",
+      "fact": "Known as the 'Paris of South America'."
+    },
+    {
+      "id": 52,
+      "name": "Cartagena",
+      "country": "Colombia",
+      "continent": "South America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Cartagena_City_Colombia.jpg",
+      "fact": "Historic walled city with Caribbean charm."
+    },
+    {
+      "id": 53,
+      "name": "Lima",
+      "country": "Peru",
+      "continent": "South America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Lima_Skyline_and_Beach.jpg",
+      "fact": "Capital city with rich history and cuisine."
+    },
+    {
+      "id": 54,
+      "name": "Cusco",
+      "country": "Peru",
+      "continent": "South America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Cusco_View_from_the_San_Blaz_Hill.jpg",
+      "fact": "Ancient capital of the Inca Empire."
+    },
+    {
+      "id": 55,
+      "name": "Santiago",
+      "country": "Chile",
+      "continent": "South America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Santiago_de_Chile_2016.jpg",
+      "fact": "Capital city surrounded by Andes mountains."
+    },
+    {
+      "id": 56,
+      "name": "Mexico City",
+      "country": "Mexico",
+      "continent": "North America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Mexico_City_Skyline.jpg",
+      "fact": "Historic city with vibrant culture and food."
+    },
+    {
+      "id": 57,
+      "name": "Toronto",
+      "country": "Canada",
+      "continent": "North America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Toronto_Skyline2.jpg",
+      "fact": "Known for CN Tower and multicultural vibe."
+    },
+    {
+      "id": 58,
+      "name": "Vancouver",
+      "country": "Canada",
+      "continent": "North America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Vancouver_-_British_Columbia_-_Canada_02.jpg",
+      "fact": "Known for stunning natural landscapes."
+    },
+    {
+      "id": 59,
+      "name": "Chicago",
+      "country": "USA",
+      "continent": "North America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Chicago_Skyline_2015.jpg",
+      "fact": "Known for deep-dish pizza and skyscrapers."
+    },
+    {
+      "id": 60,
+      "name": "Miami",
+      "country": "USA",
+      "continent": "North America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Miami_skyline_August_2017.jpg",
+      "fact": "Famous for beaches and nightlife."
+    },
+    {
+      "id": 61,
+      "name": "Honolulu",
+      "country": "USA",
+      "continent": "North America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Honolulu_Skyline.jpg",
+      "fact": "Capital of Hawaii, famous for Waikiki Beach."
+    },
+    {
+      "id": 62,
+      "name": "Cairo",
+      "country": "Egypt",
+      "continent": "Africa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Cairo_Skyline_2010.jpg",
+      "fact": "Home to the Great Pyramids and Nile River."
+    },
+    {
+      "id": 63,
+      "name": "Cape Town",
+      "country": "South Africa",
+      "continent": "Africa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Cape_Town_-_Table_Mountain_2018.jpg",
+      "fact": "Known for Table Mountain and Robben Island."
+    },
+    {
+      "id": 64,
+      "name": "Zanzibar",
+      "country": "Tanzania",
+      "continent": "Africa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Zanzibar_Sainton_Beach.jpg",
+      "fact": "Famous for beautiful beaches and spice markets."
+    },
+    {
+      "id": 65,
+      "name": "Nairobi",
+      "country": "Kenya",
+      "continent": "Africa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Nairobi_city_skyline.jpg",
+      "fact": "Known as the safari capital of the world."
+    },
+    {
+      "id": 66,
+      "name": "Casablanca",
+      "country": "Morocco",
+      "continent": "Africa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Casablanca_Skyline.jpg",
+      "fact": "Largest city in Morocco, famous for its architecture."
+    },
+    {
+      "id": 67,
+      "name": "Dubai",
+      "country": "UAE",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Dubai_Skyline_2018.jpg",
+      "fact": "Known for futuristic skyline and luxury shopping."
+    },
+    {
+      "id": 68,
+      "name": "Bangkok",
+      "country": "Thailand",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Bangkok_Skyline.jpg",
+      "fact": "Known for ornate shrines and vibrant street life."
+    },
+    {
+      "id": 69,
+      "name": "Tokyo",
+      "country": "Japan",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tokyo_Tower_and_around_Skyscrapers.jpg",
+      "fact": "A massive metropolis blending tradition and tech."
+    },
+    {
+      "id": 70,
+      "name": "Seoul",
+      "country": "South Korea",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Seoul_Skyline.jpg",
+      "fact": "Tech-savvy city with rich history."
+    },
+    {
+      "id": 71,
+      "name": "Hong Kong",
+      "country": "China",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Hong_Kong_Skyline.jpg",
+      "fact": "Famous for harbor views and skyline."
+    },
+    {
+      "id": 72,
+      "name": "Beijing",
+      "country": "China",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Forbidden_City_Beijing_Shenwumen_Gate_3.jpg",
+      "fact": "Capital city rich in history and culture."
+    },
+    {
+      "id": 73,
+      "name": "Jakarta",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Jakarta_Skyline.jpg",
+      "fact": "Largest city in Indonesia and economic hub."
+    },
+    {
+      "id": 74,
+      "name": "Manila",
+      "country": "Philippines",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Manila_Skyline_2015.jpg",
+      "fact": "Capital city with rich history and culture."
+    },
+    {
+      "id": 75,
+      "name": "Kuala Lumpur",
+      "country": "Malaysia",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Kuala_Lumpur_Skyline.jpg",
+      "fact": "Famous for Petronas Towers and diverse culture."
+    },
+    {
+      "id": 76,
+      "name": "Lisbon",
+      "country": "Portugal",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lisbon_sunset_view_from_Sao_Pedro_de_Alcantara.jpg",
+      "fact": "Capital city famous for its hills and trams."
+    },
+    {
+      "id": 77,
+      "name": "Dublin",
+      "country": "Ireland",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Dublin_skyline_from_the_Canal_-_panoramio.jpg",
+      "fact": "Capital city known for pubs and literary history."
+    },
+    {
+      "id": 78,
+      "name": "Athens",
+      "country": "Greece",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Acropolis_of_Athens_2013-05-22.jpg",
+      "fact": "Home to ancient ruins and the Acropolis."
+    },
+    {
+      "id": 79,
+      "name": "Santorini",
+      "country": "Greece",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Santorini_Caldera_-_Oia_Town.JPG",
+      "fact": "Famous for stunning sunsets and whitewashed buildings."
+    },
+    {
+      "id": 80,
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Amsterdam_Canal_Houses.jpg",
+      "fact": "Famous for canals, bicycles, and museums."
+    },
+    {
+      "id": 81,
+      "name": "Bruges",
+      "country": "Belgium",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Bruges_Belfry_01.jpg",
+      "fact": "Medieval city known for canals and chocolate."
+    },
+    {
+      "id": 82,
+      "name": "Valencia",
+      "country": "Spain",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Valencia_skyline_2018.jpg",
+      "fact": "Known for arts, science complex, and paella."
+    },
+    {
+      "id": 83,
+      "name": "Zurich",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Zuerich_Skyline.jpg",
+      "fact": "Financial hub with beautiful lake views."
+    },
+    {
+      "id": 84,
+      "name": "Kyoto",
+      "country": "Japan",
+      "continent": "Asia",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH4Pc7VziHNh7n6bvj_IzvvyvScqjEdXEzHQ&s",
+      "fact": "Home to thousands of Buddhist temples and beautiful gardens."
+    },
+    {
+      "id": 85,
+      "name": "Reykjavik",
+      "country": "Iceland",
+      "continent": "Europe",
+      "image": "https://media.istockphoto.com/id/825428482/photo/reykjavik-capital-city-of-iceland.jpg?s=612x612&w=0&k=20&c=gJFUYanA7gaaI7GNgPdlOqfcSq7OflHU03jKFEdIG9Q=",
+      "fact": "One of the cleanest, greenest, and safest cities in the world."
+    },
+    {
+      "id": 86,
+      "name": "Stockholm",
+      "country": "Sweden",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Stockholm_from_Skeppsholmen.jpg",
+      "fact": "Built on 14 islands, famous for its stunning waterfronts."
+    },
+    {
+      "id": 87,
+      "name": "Valparaíso",
+      "country": "Chile",
+      "continent": "South America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Valpara%C3%ADso%2C_Chile_-_panoramio.jpg",
+      "fact": "Known for its colorful houses, vibrant street art, and bohemian culture."
+    },
+    {
+      "id": 88,
+      "name": "Melbourne",
+      "country": "Australia",
+      "continent": "Oceania",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Melbourne_CBD_Skyline_-_Dec_2008.jpg",
+      "fact": "Known for its vibrant arts scene and coffee culture."
+    },
+    {
+      "id": 89,
+      "name": "Marrakech",
+      "country": "Morocco",
+      "continent": "Africa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Marrakech_Medina_and_Mosque.jpg",
+      "fact": "Famous for its bustling souks and beautiful palaces."
+    },
+    {
+      "id": 90,
+      "name": "Vancouver",
+      "country": "Canada",
+      "continent": "North America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Vancouver_skyline_and_Lions_Gate_Bridge.jpg",
+      "fact": "Known for stunning nature and outdoor activities."
+    },
+    {
+      "id": 91,
+      "name": "Prague",
+      "country": "Czech Republic",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Prague_Charles_Bridge_and_Old_Town_Square_panorama.jpg",
+      "fact": "Famous for its medieval architecture and historic charm."
+    },
+    {
+      "id": 92,
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "continent": "South America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Rio_de_Janeiro_Corcovado_Christ.jpg",
+      "fact": "Home to the iconic Christ the Redeemer statue."
+    },
+    {
+      "id": 93,
+      "name": "Seoul",
+      "country": "South Korea",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Seoul_at_night_-_2014_08_29_1575.jpg",
+      "fact": "A tech-savvy city blending ancient palaces and modern skyscrapers."
+    },
+    {
+      "id": 94,
+      "name": "Cape Town",
+      "country": "South Africa",
+      "continent": "Africa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cape_Town_CBD_from_Table_Mountain_2014_01.jpg",
+      "fact": "Known for its Table Mountain and coastal beauty."
+    },
+    {
+      "id": 95,
+      "name": "Budapest",
+      "country": "Hungary",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Budapest_from_above.jpg",
+      "fact": "Famous for its thermal baths and stunning architecture."
+    },
+    {
+      "id": 96,
+      "name": "San Francisco",
+      "country": "USA",
+      "continent": "North America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/San_Francisco_from_Twin_Peaks_July_2015_panorama_3.jpg",
+      "fact": "Known for the Golden Gate Bridge and vibrant culture."
+    },
+    {
+      "id": 97,
+      "name": "Hanoi",
+      "country": "Vietnam",
+      "continent": "Asia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Hanoi_Lake_and_Skyline.jpg",
+      "fact": "Famous for its centuries-old architecture and rich culture."
+    },
+    {
+      "id": 98,
+      "name": "Cusco",
+      "country": "Peru",
+      "continent": "South America",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Cusco_Panorama.jpg",
+      "fact": "Gateway to Machu Picchu and rich Incan history."
+    },
+    {
+      "id": 99,
+      "name": "Dubrovnik",
+      "country": "Croatia",
+      "continent": "Europe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Dubrovnik_Panorama_2013-07-23.jpg",
+      "fact": "Known as the 'Pearl of the Adriatic' with historic city walls."
+    },
+    {
+      "id": 100,
+      "name": "Auckland",
+      "country": "New Zealand",
+      "continent": "Oceania",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Auckland_skyline_2020.jpg",
+      "fact": "City of sails, surrounded by volcanic landscapes and harbors."
+    }
+  ]
+}
