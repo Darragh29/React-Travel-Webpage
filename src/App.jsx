@@ -6,8 +6,7 @@ import DestinationSearch from "./components/DestinationSearch.jsx";
 function App() {
   return (
     <>
-        <Navbar />
-        <DestinationSearch />
+        <h1>Welcome to Travel Page!</h1>
     </>
   )
 }
