@@ -26,7 +26,7 @@ function DestinationSearch(){
             </div>
             <div className="destinations">
                 {filteredData.length > 0 ? filteredData.map((item, index) => {
-                    return (<DestinationCard key={index} destination={item.name} country={item.country} image={item.image} fact={item.fact}/>)
+                    return (<DestinationCard key={index} id={item.id} destination={item.name} country={item.country} image={item.image} fact={item.fact}/>)
                 }) : <h1>No Destinations Found</h1>}
             </div>
         </div>
