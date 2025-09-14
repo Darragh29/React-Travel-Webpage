@@ -1,4 +1,6 @@
 import DestinationCard from "./DestinationCard.jsx";
+import SearchBar from "./SearchBar.jsx";
+import DestinationList from "./DestinationList.jsx";
 import {useEffect, useState} from "react";
 
 function DestinationSearch(){
@@ -6,15 +8,15 @@ function DestinationSearch(){
     const [destination, setDestination] = useState([]);
     const [favourites, setFavourites] = useState([]);
 
-    function handleSearch(e) {
-        setSearch(e.target.value);
-    }
-
     function handleFavourites(destinationId){
         if(destinationId){
             if(favourites.includes(destinationId)){
+                setFavourites(favourites.filter(fav => fav !== destinationId));
+            }
+            else{
                 setFavourites([...favourites, destinationId]);
             }
+
         }
     }
 
@@ -30,16 +32,9 @@ function DestinationSearch(){
 
     return (
         <div className="destination-search">
-            <div className="search">
-                <input type="search" id="dest-search" placeholder="Search" onChange={handleSearch}/>
-            </div>
+            <SearchBar onSearch={setSearch} />
             <p>{favourites}</p>
-            <div className="destinations">
-                {filteredData.length > 0 ? filteredData.map((item, index) => {
-                    return (<DestinationCard key={index} id={item.id} destination={item.name} country={item.country} image={item.image} fact={item.fact}
-                     onFavouriteClick={() => handleFavourites(item.id)} isFavourited={true}/>);
-                }) : <h1>No Destinations Found</h1>}
-            </div>
+            <DestinationList destinations={filteredData} onFavouriteClick={handleFavourites} favourites={favourites} />
         </div>
     )
 }
