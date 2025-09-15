@@ -6,6 +6,7 @@ import {useEffect, useState} from "react";
 
 function DestinationSearch(){
     const [search, setSearch] = useState("");
+    const [debouncedSearch, setDebouncedSearch] = useState("");
     const [destination, setDestination] = useState([]);
     const [favourites, setFavourites] = useState(() => {
         const saved = localStorage.getItem("favourites");
@@ -38,8 +39,16 @@ function DestinationSearch(){
         localStorage.setItem("favourites", JSON.stringify(favourites));
     },[favourites])
 
+    useEffect(()=>{
+       const handler =  setTimeout(() => {
+           setDebouncedSearch(search);
+       },500);
+
+       return () => clearTimeout(handler);
+    },[search])
+
     const filteredData = destination
-        .filter(item => {return item.name.toLowerCase().includes(search.toLowerCase()) || item.country.toLowerCase().includes(search.toLowerCase());})
+        .filter(item => {return item.name.toLowerCase().includes(debouncedSearch.toLowerCase()) || item.country.toLowerCase().includes(debouncedSearch.toLowerCase());})
         .filter(item => continentFilter ? item.continent === continentFilter : true)
         .filter(item => !showFavorites || favourites.includes(item.id))
         .sort((a, b) => {
