@@ -39,6 +39,7 @@ function DestinationSearch(){
     },[favourites])
 
     const filteredData = destination
+        .filter(item => {return item.name.toLowerCase().includes(search.toLowerCase()) || item.country.toLowerCase().includes(search.toLowerCase());})
         .filter(item => continentFilter ? item.continent === continentFilter : true)
         .filter(item => !showFavorites || favourites.includes(item.id))
         .sort((a, b) => {
