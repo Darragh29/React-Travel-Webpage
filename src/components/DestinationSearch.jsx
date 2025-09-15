@@ -7,7 +7,11 @@ import {useEffect, useState} from "react";
 function DestinationSearch(){
     const [search, setSearch] = useState("");
     const [destination, setDestination] = useState([]);
-    const [favourites, setFavourites] = useState([]);
+    const [favourites, setFavourites] = useState(() => {
+        const saved = localStorage.getItem("favourites");
+        const initialValue = JSON.parse(saved);
+        return initialValue || [];
+    });
     const [continentFilter, setContinentFilter] = useState("");
     const [sortOrder, setSortOrder] = useState("asc");
     const [showFavorites, setShowFavorites] = useState(false);
@@ -21,7 +25,6 @@ function DestinationSearch(){
             else{
                 setFavourites([...favourites, destinationId]);
             }
-
         }
     }
 
@@ -30,6 +33,10 @@ function DestinationSearch(){
             .then(res => res.json())
             .then(data => setDestination(data))
     },[])
+
+    useEffect(()=>{
+        localStorage.setItem("favourites", JSON.stringify(favourites));
+    },[favourites])
 
     const filteredData = destination
         .filter(item => continentFilter ? item.continent === continentFilter : true)
