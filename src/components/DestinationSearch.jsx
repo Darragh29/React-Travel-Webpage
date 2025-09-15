@@ -1,18 +1,28 @@
 import DestinationCard from "./DestinationCard.jsx";
+import SearchBar from "./SearchBar.jsx";
+import DestinationList from "./DestinationList.jsx";
+import Filters from "./Filters.jsx";
 import {useEffect, useState} from "react";
 
 function DestinationSearch(){
     const [search, setSearch] = useState("");
     const [destination, setDestination] = useState([]);
-    const [favourites, setFavourites] = useState([]);
+    const [favourites, setFavourites] = useState(() => {
+        const saved = localStorage.getItem("favourites");
+        const initialValue = JSON.parse(saved);
+        return initialValue || [];
+    });
+    const [continentFilter, setContinentFilter] = useState("");
+    const [sortOrder, setSortOrder] = useState("asc");
+    const [showFavorites, setShowFavorites] = useState(false);
 
-    function handleSearch(e) {
-        setSearch(e.target.value);
-    }
 
     function handleFavourites(destinationId){
         if(destinationId){
             if(favourites.includes(destinationId)){
+                setFavourites(favourites.filter(fav => fav !== destinationId));
+            }
+            else{
                 setFavourites([...favourites, destinationId]);
             }
         }
@@ -24,22 +34,30 @@ function DestinationSearch(){
             .then(data => setDestination(data))
     },[])
 
-    const filteredData = destination.filter((item) => {
-        return item.name.toLowerCase().includes(search.toLowerCase()) || item.country.toLowerCase().includes(search.toLowerCase());
-    })
+    useEffect(()=>{
+        localStorage.setItem("favourites", JSON.stringify(favourites));
+    },[favourites])
+
+    const filteredData = destination
+        .filter(item => continentFilter ? item.continent === continentFilter : true)
+        .filter(item => !showFavorites || favourites.includes(item.id))
+        .sort((a, b) => {
+            if (sortOrder === "asc") return a.name.localeCompare(b.name);
+            return b.name.localeCompare(a.name);
+        });
 
     return (
         <div className="destination-search">
-            <div className="search">
-                <input type="search" id="dest-search" placeholder="Search" onChange={handleSearch}/>
-            </div>
-            <p>{favourites}</p>
-            <div className="destinations">
-                {filteredData.length > 0 ? filteredData.map((item, index) => {
-                    return (<DestinationCard key={index} id={item.id} destination={item.name} country={item.country} image={item.image} fact={item.fact}
-                     onFavouriteClick={() => handleFavourites(item.id)} isFavourited={true}/>);
-                }) : <h1>No Destinations Found</h1>}
-            </div>
+            <SearchBar onSearch={setSearch} />
+            <Filters
+                continent={continentFilter}
+                onContinentChange={setContinentFilter}
+                sortOrder={sortOrder}
+                onSortChange={setSortOrder}
+                showFavorites={showFavorites}
+                onFavoritesToggle={setShowFavorites}
+            />
+            <DestinationList destinations={filteredData} onFavouriteClick={handleFavourites} favourites={favourites} />
         </div>
     )
 }
